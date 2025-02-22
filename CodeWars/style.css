@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 50px;
+}
+.name{
+    font-family: sans-serif;
+    color: pink;
+    margin-left: 15px;
+}
+.play{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sign{
+    background-color: rgb(219, 182, 91);
+    padding: 8px 8px;
+}
+.bg{
+    width: auto;
+    height: 800px;
+    background-image: url(Copy\ of\ Musify.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
