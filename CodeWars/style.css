@@ -70,7 +70,6 @@
 }
 .bg{
     width: auto;
-    height: 800px;
     background-image: url(Copy\ of\ Musify.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -91,4 +90,43 @@
     font-weight: lighter;
     font-family: sans-serif;
     margin-bottom: 20px;
+}
+.musify{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    background:linear-gradient(135deg, rgb(185, 21, 48), rgb(130, 2, 53));
+}
+.musify h1{
+    text-align: center;
+    font-family: monospace;
+}
+.musify h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+.musify button{
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0px;
+    background: linear-gradient(135deg, #ff77a2, #C75B7A);
+}
+.related-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.placeholder{
+    width: 90px;
+    height: 90px;
+    background-image: ;
+    background-image: url(https://i.ytimg.com/vi/a553cpa7JZ8/hqdefault.jpg);
+}
+footer{
+    width: auto;
+    /* display: grid; */
+    /* height: 90px; */
+    background-color: rgb(82, 82, 82);
+    padding: 20px 20px;
+    text-align: center;
 }
