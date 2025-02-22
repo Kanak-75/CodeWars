@@ -61,11 +61,72 @@ html{
 }
 .bg{
     width: auto;
-    height: 600px;
-    background-image: url("Copy\ of\ Musify.png");
-    background-repeat: no-repeat;
+    height: 100vh;
     background-size: 100vw 100vh;
-}
+    background-image: url("Copy of Musify.png");
+    background-repeat: no-repeat;
+    transition: opacity 0.3s ease-in-out; /* Smooth effect */
+    opacity: 1; /* Fully visible on hover */
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+        max-width: 1200px;
+        margin: auto;
+        min-height: 80vh;
+        position: relative;
+    }
+    /* background-size: contain; */
+    
+    
+    .text-content {
+        width: 50%;
+        text-align: left;
+        color: white;
+        font-size: 36px;
+        font-weight: bold;
+        position: absolute;
+        left: 5%;  /* Adjust as needed */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .text-content h3 {
+        font-size: 14px;
+        color: gray;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    
+    .text-content h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #222;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        ;
+    }
+    
+    .text-content p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.5;
+        max-width: 500px;
+    }
+    .image-content {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .image-content img {
+        width: 100%;
+        max-width: 450px;
+        border-radius: 50%;
+    }
 
 section > div {
     display: inline-block;
