@@ -63,7 +63,7 @@ html{
     width: auto;
     height: 100vh;
     background-size: 100vw 100vh;
-    background-image: url("Copy of Musify.png");
+    background-image: url("Copy\ of\ Musify.png");
     background-repeat: no-repeat;
     transition: opacity 0.3s ease-in-out; /* Smooth effect */
     opacity: 1; /* Fully visible on hover */

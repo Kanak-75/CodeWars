@@ -3,7 +3,9 @@ const musicFrame = document.getElementById("music-frame");
 
 // Mood-to-Music Mapping with Multiple Songs for Some Moods
 const moodMusic = {
-    Happy: ["https://www.youtube.com/embed/BWczaSneA0Q"],
+    Happy: ["https://www.youtube.com/embed/BWczaSneA0Q",
+            "https://www.youtube.com/embed/jCEdTq3j-0U",
+    ],
     
     Sad: [
         "https://www.youtube.com/embed/0XyV-vw5II4",
@@ -12,9 +14,19 @@ const moodMusic = {
         "https://www.youtube.com/embed/r0McrrrFNtA",
     ],
     
-    Energetic: ["https://www.youtube.com/embed/ZZ5LpwO-An4"],
-    Calm: ["https://www.youtube.com/embed/lFcSrYw-ARY"],
-    Romantic: ["https://www.youtube.com/embed/BWczaSneA0Q"]
+    Energetic: ["https://www.youtube.com/embed/ZZ5LpwO-An4",
+                "https://www.youtube.com/embed/jCEdTq3j-0U",
+                "https://www.youtube.com/embed/jCEdTq3j-0U",
+
+    ],
+    Calm: ["https://www.youtube.com/embed/lFcSrYw-ARY",
+        "https://www.youtube.com/embed/jCEdTq3j-0U",
+        "https://www.youtube.com/embed/jCEdTq3j-0U",
+    ],
+    Romantic: ["https://www.youtube.com/embed/BWczaSneA0Q",
+        "https://www.youtube.com/embed/jCEdTq3j-0U",
+        "https://www.youtube.com/embed/jCEdTq3j-0U",
+    ],
 };
 
 moodButtons.forEach(button => {
