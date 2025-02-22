@@ -3,18 +3,61 @@
     padding: 0px;
     color: white;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+}
+#name h1{
+    color: rgb(255, 100, 126);
+    font-size: 20px;
+    font-family: sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
 .navbar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    width: auto;
-    height: 50px;
+    padding: 10px 20px;
+    position: sticky;
 }
-.name{
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+   
+}
+.navbar ul li a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
     font-family: sans-serif;
-    color: pink;
-    margin-left: 15px;
+}
+.navbar ul li a:hover {
+    color: rgb(255, 138, 157);
+}
+#sign{
+    font-size: 20px;
+}
+#sign button{
+    font-size: 12px;
+    padding: 10px;
+    padding: 10px 20px;
+    /* background-image: linear-gradient(to right, rgb(65, 65, 187), pink); */
+    background-color: rgb(231, 115, 132);
+}
+#sign button:hover{
+    background-color: rgb(248, 143, 158);
 }
 .play{
     display: flex;
